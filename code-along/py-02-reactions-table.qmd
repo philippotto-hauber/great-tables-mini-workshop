@@ -80,7 +80,7 @@ gt_tbl_4 = # (
 gt_tbl_4
 ```
 
-## Formatting for Science with fmt_chem() and fmt_scientific()
+## Formatting for Science with fmt_units() and fmt_scientific()
 
 Format the chemical formulas to make them look better.
 
