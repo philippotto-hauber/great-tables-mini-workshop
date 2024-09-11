@@ -1,0 +1,37 @@
+# Setup
+
+Ensure that the following Python libraries are installed:
+
+```bash
+pip install polars pandas great-tables
+```
+
+To test that the installations were successful, use this:
+
+```{python}
+from great_tables import GT, exibble
+import polars as pl
+import polars.selectors as cs
+```
+
+```{python}
+GT(exibble)
+```
+
+```{python}
+exibble_pl = pl.from_pandas(exibble)
+```
+
+Examples with Polars selectors:
+
+```{python}
+exibble_pl.select(cs.numeric())
+```
+
+```{python}
+exibble_pl.select(cs.starts_with("date"))
+```
+
+```{python}
+exibble_pl.select(cs.ends_with("time"))
+```
