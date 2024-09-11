@@ -4,7 +4,7 @@ html-table-processing: none
 jupyter: python3
 ---
 
-# Code Along in Python: Coffee Table
+# Code Along: Coffee Table
 
 ## Start
 
