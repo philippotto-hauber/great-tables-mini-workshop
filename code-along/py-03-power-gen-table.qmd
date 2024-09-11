@@ -18,7 +18,7 @@ from great_tables import GT, md, style, loc
 Importing the data.
 
 ```{python}
-power_generation = pd.read_csv("data/power-generation.csv")
+power_generation = pd.read_csv("../data/power-generation.csv")
 
 power_generation
 ```
