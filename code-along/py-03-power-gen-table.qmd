@@ -207,7 +207,8 @@ gt_tbl_15 = (
         column_labels_background_color="antiquewhite",
         table_background_color="snow",
         data_row_padding_horizontal="3px",
-        column_labels_padding_horizontal="10px"
+        column_labels_padding_horizontal="10px",
+        table_font_size="12px"
     )
 )
 
