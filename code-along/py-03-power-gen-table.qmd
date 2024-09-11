@@ -41,8 +41,8 @@ and make sure 'Carbon Intensity' and 'Power Consumption' are in bold lettering.
 
 ```{python}
 gt_tbl_2 = # (
-    #gt_tbl_1
-#)
+    # gt_tbl_1
+# )
 
 gt_tbl_2
 ```
@@ -55,8 +55,8 @@ more accurate regional factors.
 
 ```{python}
 gt_tbl_3 = # (
-    #gt_tbl_2
-#)
+    # gt_tbl_2
+# )
 
 gt_tbl_3
 ```
@@ -65,8 +65,8 @@ Make the width of the `Zone` column 120px. All other columns fixed at 85px.
 
 ```{python}
 gt_tbl_4 = # (
-    #gt_tbl_3
-#)
+    # gt_tbl_3
+# )
 
 gt_tbl_4
 ```
@@ -77,8 +77,8 @@ Format the fractional values by turning them into percentages.
 
 ```{python}
 gt_tbl_5 = # (
-    #gt_tbl_4
-#)
+    # gt_tbl_4
+# )
 
 gt_tbl_5
 ```
@@ -87,8 +87,8 @@ Ensure that the `CO2 Intensity` values are formatted as integers.
 
 ```{python}
 gt_tbl_6 = # (
-    #gt_tbl_5
-#)
+    # gt_tbl_5
+# )
 
 gt_tbl_6
 ```
@@ -103,8 +103,8 @@ Color the cells in the `CO2 Intensity` column according to value (in range of 0 
 
 ```{python}
 gt_tbl_7 = # (
-    #gt_tbl_6
-#)
+    # gt_tbl_6
+# )
 
 gt_tbl_7
 ```
@@ -117,8 +117,8 @@ Color the cells in the `Hydro` to `Geothermal` columns according to value (in ra
 
 ```{python}
 gt_tbl_8 = # (
-    #gt_tbl_7
-#)
+    # gt_tbl_7
+# )
 
 gt_tbl_8
 ```
@@ -131,8 +131,8 @@ Color the cells in the `Biomass` column according to value (in range of 0 to 0.3
 
 ```{python}
 gt_tbl_9 = # (
-    #gt_tbl_8
-#)
+    # gt_tbl_8
+# )
 
 gt_tbl_9
 ```
@@ -145,8 +145,8 @@ Color the cells in the `Gas` to `Oil` columns according to value (in range of 0 
 
 ```{python}
 gt_tbl_10 = # (
-    #gt_tbl_9
-#)
+    # gt_tbl_9
+# )
 
 gt_tbl_10
 ```
@@ -155,8 +155,8 @@ Ensure the remaining body cells have the 'snow' color applied.
 
 ```{python}
 gt_tbl_11 = # (
-    #gt_tbl_10
-#)
+    # gt_tbl_10
+# )
 
 gt_tbl_11
 ```
@@ -167,8 +167,8 @@ As a starting point, align all cell contents (and the column labels) with center
 
 ```{python}
 gt_tbl_12 = # (
-    #gt_tbl_11
-#)
+    # gt_tbl_11
+# )
 
 gt_tbl_12
 ```
@@ -177,8 +177,8 @@ As a tweak, align the `Zone` column to the left.
 
 ```{python}
 gt_tbl_13 = # (
-    #gt_tbl_12
-#)
+    # gt_tbl_12
+# )
 
 gt_tbl_13
 ```
@@ -187,8 +187,8 @@ Use the 'humanist' font stack for this table.
 
 ```{python}
 gt_tbl_14 = # (
-    #gt_tbl_13
-#)
+    # gt_tbl_13
+# )
 
 gt_tbl_14
 ```
