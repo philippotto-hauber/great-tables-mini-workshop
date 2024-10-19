@@ -1,7 +1,7 @@
 A Short Workshop on Great Tables
 ================================
 
-This workshop (and future video), with presenters Michael Chow and Rich Iannone, is all about using [Great Tables](https://posit-dev.github.io/great-tables/articles/intro.html) to make beautiful tables for publication and display purposes. We believe that effective tables have these things in common:
+This workshop is all about using [Great Tables](https://posit-dev.github.io/great-tables/articles/intro.html) to make beautiful tables for publication and display purposes. We believe that effective tables have these things in common:
 
 1. structuring that aids in the reading of the table
 2. well-formatted values, fitting expectations for the field of study 
@@ -13,8 +13,6 @@ These materials are for you if:
 - you often create reporting that involves summarizations of data
 - you were often frustrated with making tables for display purposes outside of Python
 - you found beautiful-looking tables in the wild and wondered: 'How could I do that?'
-
-Soon, there will be a video that walks through the materials in this workshop. In the meantime, you can follow along with the materials in this repository. We'll post the link to the video here when it's ready!
 
 ## About
 
