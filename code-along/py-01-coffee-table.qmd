@@ -11,6 +11,7 @@ jupyter: python3
 Setting up.
 
 ```{python}
+import json
 import polars as pl
 import polars.selectors as cs
 from great_tables import GT, loc, style
@@ -19,9 +20,14 @@ from great_tables import GT, loc, style
 Importing the data.
 
 ```{python}
-coffee_sales = pl.DataFrame.deserialize("../data/coffee-sales.json", format="json")
+with open("../data/coffee-sales.json", "r") as f:
+        data = json.load(f)
 
-coffee_sales
+columns_data = {}
+for col_def in data["columns"]:
+    columns_data[col_def["name"]] = col_def["values"]
+
+coffee_sales = pl.DataFrame(columns_data)
 ```
 
 Let's get the data into Great Tables.
