@@ -1,3 +1,13 @@
+Original README below
+
+- To render the qmd file, run the following command in the terminal from the main directory of the project **after** activating the pipenv:
+
+```bash
+pipenv shell
+quarto render py-01-coffee-table.qmd
+```
+
+
 A Short Workshop on Great Tables
 ================================
 
